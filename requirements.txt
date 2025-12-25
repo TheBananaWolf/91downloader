@@ -1,3 +1,9 @@
-requests
-selenium
-webdriver-manager
+# Core networking (Pinned to 1.26 to fix Mac SSL error)
+urllib3==1.26.18
+requests==2.31.0
+certifi==2023.11.17
+
+# Browser automation (Pinned to compatible versions)
+selenium==4.16.0
+webdriver-manager==4.0.1
+packaging
