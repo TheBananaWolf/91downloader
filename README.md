@@ -1,6 +1,6 @@
 # 91 Video Downloader
 
-A Python-based GUI application that automates the process of extracting and downloading videos from 91xxxx web pages.
+A Python-based GUI/CLI application that automates the process of extracting and downloading videos from 91xxxx web pages.
 
 ## Features
 
@@ -32,18 +32,21 @@ pip install -r requirements.txt
 
 1.  **Run the script:**
     ```bash
+    #Windows
     python3 downloader.py
+    #MacOS
+    python3 downloader_cli.py
     ```
 
 2.  **Enter URL:**
-    Paste the target video page URL into the input field in the GUI.
+    Paste the target video page URL into the input field in the GUI/CLI.
 
 3.  **Start Process:**
-    Click the **"启动浏览器抓取"** (Start Browser Capture) button.
+    Click the **"启动浏览器抓取"** (Start Browser Capture) button/Press the Enter button.
 
 4.  **Important Manual Step:**
     * An automated Chrome window will open in "Mobile Mode".
-    * **You must manually click the "Play" button on the video in that browser window.**
+    * **You may manually click the "Play" button on the video in that browser window.**
     * The script waits up to **30 seconds** for the video to start playing to capture the network source.
 
 5.  **Download:**
